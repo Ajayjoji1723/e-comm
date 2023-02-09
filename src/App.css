@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +39,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.search-container{
+  display: flex;
+  padding: 20px;
+}
+
+.label-container{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.check-cont{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input{
+  margin: 10px;
+  height: 50px;
+  width: 400px;
+  padding: 10px;
+}
+
+.item-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select{
+  width: 150px;
+  height: 50px;
+  padding: 5px;
 }
